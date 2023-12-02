@@ -1,3 +1,7 @@
+body {
+  background: #fbfaf5;
+}
+
 .main-container {
   max-width: 800px;
   margin: auto;
@@ -13,6 +17,8 @@
 
 .todo-input-form {
   text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 .todo-input {
@@ -20,7 +26,8 @@
   padding: 5px;
   width: 500px;
   max-width: 100%;
-  background-color: lightgray;
+  background-color: #f9fafb;
+  width: 100%;
 }
 
 .todo-input-edit {
@@ -89,9 +96,6 @@
   padding-left: 20px;
 }
 
-.todo-item p {
-  margin-bottom: 0px;
-}
 
 .todo-item del {
   color: darkslategrey;

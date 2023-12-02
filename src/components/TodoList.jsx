@@ -40,7 +40,7 @@ const TodoList = ({ todos, completeTodo, removeTodo, updateTodo }) => {
               </div>
             ))
           ) : (
-            <p>Todo list is empty</p>
+            <p></p>
           )}
         </div>
 
